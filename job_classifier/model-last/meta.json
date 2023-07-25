@@ -1,0 +1,563 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.5.3,<3.6.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"512241e12",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "textcat":[
+      "events coordinator",
+      "advertising account executive",
+      "advertising consultant",
+      "advertising coordinator",
+      "advertising specialist",
+      "alliances manager",
+      "ppc specialist",
+      "assistant marketing manager",
+      "media planner",
+      "brand manager",
+      "media director",
+      "product marketing manager",
+      "brand ambassador",
+      "brand consultant",
+      "brand marketing",
+      "partnership manager",
+      "partnerships manager",
+      "brand promoter",
+      "brand strategist",
+      "vp marketing",
+      "chief marketing officer",
+      "communication specialist",
+      "public relations manager",
+      "public relations specialist",
+      "social media coordinator",
+      "social media manager",
+      "social media specialist",
+      "content marketer",
+      "content marketing manager",
+      "marketing specialist",
+      "marketing strategist",
+      "content strategist",
+      "copywriter",
+      "corporate communications manager",
+      "customer marketing manager",
+      "social media producer",
+      "digital marketer",
+      "digital marketing analyst",
+      "marketing assistant",
+      "marketing associate",
+      "marketing coordinator",
+      "marketing director",
+      "marketing executive",
+      "seo manager",
+      "digital marketing strategist",
+      "media coordinator",
+      "media manager",
+      "media strategist",
+      "pr executive",
+      "director of digital marketing",
+      "director of brand",
+      "director of communications",
+      "director of content",
+      "director of marketing",
+      "marketing communications",
+      "marketing analytics",
+      "field marketing manager",
+      "marketing representative",
+      "social media marketer",
+      "digital marketing manager",
+      "growth marketing manager",
+      "head of marketing",
+      "marketing manager",
+      "sales and marketing director",
+      "market manager",
+      "growth hacker",
+      "marketing analyst",
+      "online marketing manager",
+      "seo specialist",
+      "market research analyst",
+      "marketing administrative assist",
+      "marketing communications coordinator",
+      "marketing communications manager",
+      "marketing communications specialist",
+      "events assistant",
+      "marketing operations manager",
+      "public relations director",
+      "marketing and sales manager",
+      "public relations assistant",
+      "social media director",
+      "marketing project manager ",
+      "media buyer",
+      "market executive",
+      "online marketing executive",
+      "technical marketing manager",
+      "social media strategist"
+    ]
+  },
+  "pipeline":[
+    "textcat"
+  ],
+  "components":[
+    "textcat"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "cats_score":0.9940937615,
+    "cats_score_desc":"macro F",
+    "cats_micro_p":0.9943181818,
+    "cats_micro_r":0.9943181818,
+    "cats_micro_f":0.9943181818,
+    "cats_macro_p":0.9947674419,
+    "cats_macro_r":0.9947674419,
+    "cats_macro_f":0.9940937615,
+    "cats_macro_auc":0.9999827427,
+    "cats_f_per_type":{
+      "events coordinator":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "advertising account executive":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "advertising consultant":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "advertising coordinator":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "advertising specialist":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "alliances manager":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "ppc specialist":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "assistant marketing manager":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "media planner":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "brand manager":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "media director":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "product marketing manager":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "brand ambassador":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "brand consultant":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "brand marketing":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "partnership manager":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "partnerships manager":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "brand promoter":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "brand strategist":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "vp marketing":{
+        "p":1.0,
+        "r":0.8,
+        "f":0.8888888889
+      },
+      "chief marketing officer":{
+        "p":0.8,
+        "r":1.0,
+        "f":0.8888888889
+      },
+      "communication specialist":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "public relations manager":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "public relations specialist":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "social media coordinator":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "social media manager":{
+        "p":1.0,
+        "r":0.75,
+        "f":0.8571428571
+      },
+      "social media specialist":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "content marketer":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "content marketing manager":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "marketing specialist":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "marketing strategist":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "content strategist":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "copywriter":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "corporate communications manager":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "customer marketing manager":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "social media producer":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "digital marketer":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "digital marketing analyst":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "marketing assistant":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "marketing associate":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "marketing coordinator":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "marketing director":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "marketing executive":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "seo manager":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "digital marketing strategist":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "media coordinator":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "media manager":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "media strategist":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "pr executive":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "director of digital marketing":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "director of brand":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "director of communications":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "director of content":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "director of marketing":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "marketing communications":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "marketing analytics":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "field marketing manager":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "marketing representative":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "social media marketer":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "digital marketing manager":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "growth marketing manager":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "head of marketing":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "marketing manager":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "sales and marketing director":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "market manager":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "growth hacker":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "marketing analyst":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "online marketing manager":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "seo specialist":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "market research analyst":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "marketing administrative assist":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "marketing communications coordinator":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "marketing communications manager":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "marketing communications specialist":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "events assistant":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "marketing operations manager":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "public relations director":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "marketing and sales manager":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "public relations assistant":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "social media director":{
+        "p":0.75,
+        "r":1.0,
+        "f":0.8571428571
+      },
+      "marketing project manager ":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "media buyer":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "market executive":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "online marketing executive":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "technical marketing manager":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "social media strategist":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      }
+    },
+    "cats_macro_auc_per_type":0.0,
+    "textcat_loss":0.016456416
+  }
+}
